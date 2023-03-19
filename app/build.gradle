@@ -13,6 +13,7 @@ android {
     defaultConfig {
         applicationId "com.example.mynotes"
         minSdk 21
+
         targetSdk 33
         versionCode 1
         versionName "1.0"
@@ -37,6 +38,7 @@ android {
     buildFeatures{
         viewBinding = true
     }
+
 
 }
 
@@ -83,3 +85,4 @@ dependencies {
 kapt {
     correctErrorTypes true
 }
+
